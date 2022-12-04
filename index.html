@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Оглезневой Надежды</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Заголовок-->
+    <header>
+        <!--Меню-->
+    <div class="nav container">
+        <!--Логотип-->
+        <a href="#" class="logo">Строи<span>тельство</span></a>
+        <!--Логин-->
+        <a href="form.html" class="login">Регистрация</a>
+    </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">BIM/WEB/Программирование</h2>
+       <span class="home-subtitle">Источник знаний</span>
+        </div>
+    </section>
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter='all'>Все статьи</span>
+        <span class="filter-item" data-filter='bim'>BIM</span>
+        <span class="filter-item" data-filter='web'>Сетевые протоколы</span>
+        <span class="filter-item" data-filter='pyth'>Языки программирования</span>
+    </div>
+    <!--Статьи-->
+    <section class="post container">
+        <!-- post box1-->
+
+    <div class="post-box bim">
+            <img src="images/bim.jpg" alt="" class="post-img">
+        <h2 class="category"></h2>
+        <a href="bim.html" class="post-title">
+           Что такое BIM/ТИМ технологии? 
+        </a>
+        <span class="post-date">19 ноября 2022</span>
+        <p class="post-descrtiption">
+            ТИМ — это российский вариант термина BIM. Аббревиатура расшифровывается как технологии информационного моделирования. Именно ТИМ используется в формулировках Градкодекса РФ.
+        </p>
+
+    </div>
+
+      <!-- post box2-->
+      <div class="post-box web">
+        <img src="images/tcp-ip.jpg" alt="" class="post-img">
+ 
+    <a href="web1.html" class="post-title">
+        TCP/IP
+    </a>
+    <span class="post-date">20 ноября 2022</span>
+    <p class="post-descrtiption">
+        Протокол TCP/IP основан на OSI и так же, как предшественник, имеет несколько уровней, которые и составляют его архитектуру. Всего выделяют 4 уровня – канальный (интерфейсный), межсетевой, транспортный и прикладной.
+        </p>
+    </div>
+
+
+    <!-- post box3-->
+    <div class="post-box web">
+        <img src="images/osi.jpg" alt="" class="post-img">
+
+    <a href="osi.html" class="post-title">
+        Модель OSI
+    </a>
+    <span class="post-date">20 ноября 2022</span>
+    <p class="post-descrtiption">
+        Открытая сетевая модель OSI (Open Systems Interconnection model) состоит из семи уровней. Что это за уровни, как устроена модель и какова ее роль при построении сетей — в статье.
+
+        Модель OSI является эталонной. Эталонная она потому, что полное название модели выглядит как «Basic Reference Model Open Systems Interconnection model», где Basic Reference Model означает «эталонная модель». Вначале рассмотрим общую информацию, а потом перейдем к частным аспектам.
+    </div>
+
+
+    <!-- post box3-->
+    <div class="post-box pyth">
+        <img src="images/JAVA.jpeg" alt="" class="post-img">
+
+    <a href="java.html" class="post-title">
+        JAVA
+    </a>
+    <span class="post-date">1 декабря 2022</span>
+    <p class="post-descrtiption">
+        Java является основой практически для всех типов сетевых приложений и всеобщим стандартом для разработки и распространения встроенных и мобильных приложений, игр, веб-контента и корпоративного программного обеспечения. В мире насчитывается более 9 миллионов специалистов, разрабатывающих приложения на Java, которая позволяет эффективно разрабатывать, внедрять и использовать превосходные приложения и услуги.
+        </p>
+    </div>
+
+    <div class="post-box pyth">
+        <img src="images/SCALA.jpg" alt="" class="post-img">
+
+    <a href="scala.html" class="post-title">
+        SCALA
+    </a>
+    <span class="post-date">20 ноября 2022</span>
+    <p class="post-descrtiption">
+        Если хотите изучить основы Scala и попробовать свои силы в объектно-ориентированном программировании в мире Java, то вот с чего можно начать.
+        </p>
+    </div>
+
+    <div class="post-box pyth">
+        <img src="images/PYTHON.jpg" alt="" class="post-img">
+
+    <a href="python.html" class="post-title">
+        PYTHON
+    </a>
+    <span class="post-date">20 ноября 2022</span>
+    <p class="post-descrtiption">
+        Python (произносится как «пайтон», но многие говорят «питон») – это язык программирования общего назначения, который широко применяется в различных областях: от создания банальных веб-страниц до систем управления роверами на других планетах.
+        </p>
+    </div>
+                
+    </section>
+
+
+    <div class="footer container">
+        <p>&#169; Сайт выполнила Оглезнева Надежда ИЦТМС 4-1 НИУ МГСУ 2022 год</p>
+    </div>
+
+    <!-- JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" 
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" 
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
